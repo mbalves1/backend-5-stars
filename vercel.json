@@ -12,5 +12,6 @@
       "dest": "dist/main.js",
       "methods": ["GET", "POST", "PUT", "PATCH", "OPTIONS", "DELETE", "HEAD", "CONNECT", "TRACE"]
     }
-  ]
+  ],
+  "outputDirectory": "dist"
 }
