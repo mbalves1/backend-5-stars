@@ -10,7 +10,10 @@
     {
       "src": "/(.*)",
       "dest": "dist/main.js",
-      "methods": ["GET", "POST", "PUT", "PATCH", "OPTIONS", "DELETE", "HEAD", "CONNECT", "TRACE"]
+      "methods": ["GET", "POST", "PUT", "PATCH", "OPTIONS", "DELETE", "HEAD", "CONNECT", "TRACE"],
+      "headers": {
+        "Access-Control-Allow-Origin": "*"
+      }
     }
   ],
   "outputDirectory": "dist"
